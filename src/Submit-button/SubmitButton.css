@@ -1,0 +1,8 @@
+.button.submit-button {
+  width: 100%;
+  border-radius: 5rem;
+  background-color: rgb(192, 126, 2);
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
