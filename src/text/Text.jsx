@@ -13,7 +13,10 @@ props: {
 }
 */
   const classnames = ["text"];
+  console.log(props.className);
   if (props.className) classnames.push(props.className);
+  console.log(classnames);
+  console.log(classnames.join(" "));
   switch (props.as) {
     case "span":
       return <span className={classnames.join(" ")}>{props.children}</span>;
